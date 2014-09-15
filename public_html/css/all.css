@@ -1,0 +1,104 @@
+
+ul#filterOptions {
+	margin: 0 0 0 150px;;
+	overflow: hidden;
+		line-height: 60px;
+}
+ul#filterOptions li { list-style: none; float: left; }
+ul#filterOptions li a {
+	text-decoration: none;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	transition: 0.4s linear;
+	opacity: 1.0;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+ul#filterOptions li a:hover {
+		-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	transition: 0.2s linear;
+	opacity: 0.5;
+}
+.pf_menu_separator {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+#filterOptions .active {
+	opacity: 0.3;
+}
+.pf_menu_separator {
+	opacity: 0.3;
+}
+/*- -*/
+/*- OUR DATA HOLDER -*/
+ul.ourHolder {
+	padding:0;
+	overflow: hidden;
+	margin-left: 40px;
+}
+ul.ourHolder li.item {
+	display: block;
+	float: left;
+	width: 260px;
+	height: 130px;
+	margin-right: 10px;
+	margin-left: 10px;
+	opacity: 1.0;
+}
+/*- -*/
+
+@media only screen and (max-width: 959px){
+#gallery_filter{
+padding:20px;
+text-align:center;
+}
+
+ul#filterOptions {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	overflow: hidden;
+	margin:0;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 30px;
+	display:inline;
+	text-align:center;
+}
+
+ul.ourHolder {
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+
+ul#filterOptions li {
+	text-align:center;
+	float: none;
+	margin:10px;
+	padding: 0 !important;
+	text-align: center;
+	display: inline;
+}
+.pf_menu_separator {
+	display: none !important;
+	width:0px;
+}
+	ul.ourHolder img{
+
+	width: 100%;
+	height: auto;
+}
+}
+@media only screen and (max-width: 460px){
+	ul.ourHolder li.item {
+	width: 75%;
+	height: auto;
+}
+	ul.ourHolder img{
+
+	width: 100%;
+	height: auto;
+}
+}
