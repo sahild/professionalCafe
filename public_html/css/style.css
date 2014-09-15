@@ -291,7 +291,7 @@ h5, h5 a {
 	border:0;
 }
 nav{
-	margin:0;
+	margin-left:25%;
 	width:auto;
 	height:auto;
 	padding:0;
@@ -300,10 +300,8 @@ nav{
 	font-size:23px;
 	margin: 0px;
 	padding-right:20px;
-	float: right;
 	font-weight: 400; 
 	text-transform:uppercase;	
-	float: right;
 	list-style: none;
 	-webkit-transition: text-shadow 0.5s ease-in-out;
     -moz-transition: text-shadow 0.5s ease-in-out;
